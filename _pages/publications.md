@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 
-Full list: [[Google scholar](https://scholar.google.com/citations?user=Qtvu5t4AAAAJ&hl=zh-CN)] | [[DBLP](https://dblp.org/pid/65/4065-1.html)]
+Full list: [[Google scholar](https://scholar.google.com/citations?user=Qtvu5t4AAAAJ&hl=en)] | [[DBLP](https://dblp.org/pid/65/4065-1.html)]
 <!-- _pages/publications.md -->
 <div class="publications">
 
