@@ -3,6 +3,19 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{Yuan_2024,
+  author       = {Shiyu Yuan and
+                  Carlo Lipizzi and
+                  Tian Han},
+  abbr = {CVPRW},
+  selected = {false},
+  pdf = {https://generative-vision.github.io/workshop-CVPR-24/papers/64.pdf}, 
+  title        = {Learning Multimodal Latent Space with EBM Prior and MCMC Inference},
+  abstract = {Multimodal generative models are crucial for various applications. We propose an approach that combines an expressive energy-based model (EBM) prior with Markov Chain Monte Carlo (MCMC) inference in the latent space for multimodal generation. The EBM prior acts as an informative guide, while MCMC inference, specifically through short-run Langevin dynamics, brings the posterior distribution closer to its true form. This method not only provides an expressive prior to better capture the complexity of multimodality but also improves the learning of shared latent variables for more coherent generation across modalities. Our proposed method is supported by empirical experiments, underscoring the effectiveness of our EBM prior with MCMC inference in enhancing cross-modal and joint generative tasks in multimodal contexts.},
+  booktitle    = {Generative Models in Computer Vision (GCV) Workshop in CVPR},
+  year         = {2024}
+}
+
 @inproceedings{Li_2024,
   author       = {Hanao Li and
                   Tian Han},
@@ -14,15 +27,22 @@
   year         = {2024}
 }
 
+
 @inproceedings{CuiW023b,
-  author       = {Jiali Cui and
-                  Tian Han},
-  abbr = {NeurIPS},
-  selected = {true},
-  title        = {Learning Energy-based Model via Dual-MCMC Teaching},
-  abstract = {This paper studies the fundamental learning problem of the energy-based model (EBM). Learning the EBM can be achieved using the maximum likelihood estimation (MLE), which typically involves the Markov Chain Monte Carlo (MCMC) sampling, such as the Langevin dynamics. However, the noise-initialized Langevin dynamics can be challenging in practice and hard to mix. This motivates the exploration of joint training with the generator model where the generator model serves as a complementary model to bypass MCMC sampling. However, such a method can be less accurate than the MCMC and result in biased EBM learning. While the generator can also serve as an initializer model for better MCMC sampling, its learning can be biased since it only matches the EBM and has no access to empirical training examples. Such biased generator learning may limit the potential of learning the EBM. To address this issue, we present a joint learning framework that interweaves the maximum likelihood learning algorithm for both the EBM and the complementary generator model. In particular, the generator model is learned by MLE to match both the EBM and the empirical data distribution, making it a more informative initializer for MCMC sampling of EBM. Learning generator with observed examples typically requires inference of the generator posterior. To ensure accurate and efficient inference, we adopt the MCMC posterior sampling and introduce a complementary inference model to initialize such latent MCMC sampling. We show that three separate models can be seamlessly integrated into our joint framework through two (dual-) MCMC teaching, enabling effective and efficient EBM learning.},
-  booktitle    = {Advances in Neural Information Processing Systems (NeurIPS) },
-  year         = {2023}
+ author = {Cui, Jiali and Han, Tian},
+ abbr = {NeurIPS},
+ selected = {true},
+ bibtex_show = {true},
+ pdf = {https://proceedings.neurips.cc/paper_files/paper/2023/file/5bed8703db85ab27dc32f6a42f8fbdb6-Paper-Conference.pdf}, 
+ booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {28861--28872},
+ publisher = {Curran Associates, Inc.},
+ title = {Learning Energy-based Model via Dual-MCMC Teaching},
+ abstract = {This paper studies the fundamental learning problem of the energy-based model (EBM). Learning the EBM can be achieved using the maximum likelihood estimation (MLE), which typically involves the Markov Chain Monte Carlo (MCMC) sampling, such as the Langevin dynamics. However, the noise-initialized Langevin dynamics can be challenging in practice and hard to mix. This motivates the exploration of joint training with the generator model where the generator model serves as a complementary model to bypass MCMC sampling. However, such a method can be less accurate than the MCMC and result in biased EBM learning. While the generator can also serve as an initializer model for better MCMC sampling, its learning can be biased since it only matches the EBM and has no access to empirical training examples. Such biased generator learning may limit the potential of learning the EBM. To address this issue, we present a joint learning framework that interweaves the maximum likelihood learning algorithm for both the EBM and the complementary generator model. In particular, the generator model is learned by MLE to match both the EBM and the empirical data distribution, making it a more informative initializer for MCMC sampling of EBM. Learning generator with observed examples typically requires inference of the generator posterior. To ensure accurate and efficient inference, we adopt the MCMC posterior sampling and introduce a complementary inference model to initialize such latent MCMC sampling. We show that three separate models can be seamlessly integrated into our joint framework through two (dual-) MCMC teaching, enabling effective and efficient EBM learning.},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/5bed8703db85ab27dc32f6a42f8fbdb6-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
 }
 
 @inproceedings{Cui_2023_ICCV,
