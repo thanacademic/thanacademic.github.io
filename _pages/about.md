@@ -24,6 +24,9 @@ I'm currently a tenure-track Assistant Professor in the Department of Computer S
 <br>
 **Research interest:** generative modeling, un-/semi-supervised learning, representation learning, and relevant applications in computer vision and natural language. *Interested in collaboration? Contact me.*
 
+<br>
+**Openings:** I am looking for one or two Ph.D students to work on topics in multimodal generative models and/or explainable generative models. If you are interested in working with me, please send me your CV and a description of your research background. 
+
 
 
 
