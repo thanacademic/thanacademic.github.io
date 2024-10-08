@@ -3,44 +3,65 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{Cui_2024,
+@inproceedings{DBLP:conf/icml/Cui024,
   author       = {Jiali Cui and
                   Tian Han},
+  title        = {Learning Latent Space Hierarchical {EBM} Diffusion Models},
+  pdf = {https://arxiv.org/abs/2405.13910},
+  bibtex_show = {true},
   abbr = {ICML},
-  selected = {false},
-  title        = {Learning Latent Space Hierarchical EBM Diffusion Models},
+  selected = {true},
+  abstract = {This work studies the learning problem of the energy-based prior model and the multi-layer generator model. The multi-layer generator model, which contains multiple layers of latent variables organized in a top-down hierarchical structure, typically assumes the Gaussian prior model. Such a prior model can be limited in modelling expressivity, which results in a gap between the generator posterior and the prior model, known as the prior hole problem. Recent works have explored learning the energy-based (EBM) prior model as a second-stage, complementary model to bridge the gap. However, the EBM defined on a multi-layer latent space can be highly multi-modal, which makes sampling from such marginal EBM prior challenging in practice, resulting in ineffectively learned EBM. To tackle the challenge, we propose to leverage the diffusion probabilistic scheme to mitigate the burden of EBM sampling and thus facilitate EBM learning. Our extensive experiments demonstrate a superior performance of our diffusion-learned EBM prior on various challenging tasks.},
   booktitle    = {International Conference on Machine Learning (ICML)},
-  year         = {2024}
+  publisher    = {OpenReview.net},
+  year         = {2024},
+  url          = {https://openreview.net/forum?id=o9uOuIwhZK},
+  timestamp    = {Mon, 02 Sep 2024 16:55:26 +0200},
+  biburl       = {https://dblp.org/rec/conf/icml/Cui024.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-@inproceedings{geng_2024,
+@inproceedings{DBLP:conf/icml/GengHJZCHL24,
   author       = {Cong Geng and
                   Tian Han and
-                  Peng-Tao Jiang and
+                  Peng{-}Tao Jiang and
                   Hao Zhang and
                   Jinwei Chen and
-                  Soren Hauberg and
+                  S{\o}ren Hauberg and
                   Bo Li},
-  abbr = {ICML},
-  selected = {false},
   title        = {Improving Adversarial Energy-Based Model via Diffusion Process},
+  pdf = {https://arxiv.org/abs/2403.01666},
+  abbr = {ICML},
+  bibtex_show = {true},
+  abstract = {Generative models have shown strong generation ability while efficient likelihood estimation is less explored. Energy-based models~(EBMs) define a flexible energy function to parameterize unnormalized densities efficiently but are notorious for being difficult to train. Adversarial EBMs introduce a generator to form a minimax training game to avoid expensive MCMC sampling used in traditional EBMs, but a noticeable gap between adversarial EBMs and other strong generative models still exists. Inspired by diffusion-based models, we embedded EBMs into each denoising step to split a long-generated process into several smaller steps. Besides, we employ a symmetric Jeffrey divergence and introduce a variational posterior distribution for the generator's training to address the main challenges that exist in adversarial EBMs. Our experiments show significant improvement in generation compared to existing adversarial EBMs, while also providing a useful energy function for efficient density estimation.}, 
   booktitle    = {International Conference on Machine Learning (ICML)},
-  year         = {2024}
+  publisher    = {OpenReview.net},
+  year         = {2024},
+  url          = {https://openreview.net/forum?id=QXEx16jWdN},
+  timestamp    = {Mon, 02 Sep 2024 16:55:26 +0200},
+  biburl       = {https://dblp.org/rec/conf/icml/GengHJZCHL24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{Cheng_2024,
+@inproceedings{DBLP:conf/icml/ChengCPX0Z24,
   author       = {Xu Cheng and
                   Lei Cheng and
                   Zhaoran Peng and
                   Yang Xu and
                   Tian Han and
                   Quanshi Zhang},
-  abbr = {ICML},
-  selected = {false},
   title        = {Layerwise Change of Knowledge in Neural Networks},
+  pdf = {https://www.arxiv.org/abs/2409.08712},
+  abbr = {ICML},
+  abstract = {This paper aims to explain how a deep neural network (DNN) gradually extracts new knowledge and forgets noisy features through layers in forward propagation. Up to now, although the definition of knowledge encoded by the DNN has not reached a consensus, Previous studies have derived a series of mathematical evidence to take interactions as symbolic primitive inference patterns encoded by a DNN. We extend the definition of interactions and, for the first time, extract interactions encoded by intermediate layers. We quantify and track the newly emerged interactions and the forgotten interactions in each layer during the forward propagation, which shed new light on the learning behavior of DNNs. The layer-wise change of interactions also reveals the change of the generalization capacity and instability of feature representations of a DNN.},
+  bibtex_show = {true},
   booktitle    = {International Conference on Machine Learning (ICML)},
-  year         = {2024}
+  publisher    = {OpenReview.net},
+  year         = {2024},
+  url          = {https://openreview.net/forum?id=7zEoinErzQ},
+  timestamp    = {Mon, 30 Sep 2024 07:54:33 +0200},
+  biburl       = {https://dblp.org/rec/conf/icml/ChengCPX0Z24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{Yuan_2024,
